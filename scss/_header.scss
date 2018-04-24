@@ -1,18 +1,19 @@
 .header {
     height: 100vh;
     width: 100%;
+    font-family: 'Segoe UI';
 }
 
 .top-nav {
     display: flex;
-    height: 35px;
-    width: 100%;
+    max-width: 100%;
     justify-content: space-around;
+    padding: 13px 0px 13px 0px;
     align-items: center;
     font-size: 11px;
     text-transform: uppercase;
     border-bottom: 1px solid #e2e2ed;
-    font-family: 'Segoe UI';
+    font-weight: 600;
     letter-spacing: 1.65px;
     ul {
         display: flex;
@@ -30,6 +31,7 @@
     .addToBookmarks {
         text-decoration: none;
         margin-left: 15px;
+        font-weight: 500;
     }
     i {
         color: #2e2771;
@@ -38,4 +40,75 @@
 
 .company-info {
     display: flex;
+    height: 130px;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    a {
+        color: #393185;
+        text-underline-position: under;
+    }
+    i {
+        color: #393185;
+    }
+    .logo {
+        .slogan {
+            margin-top: 12px;
+            font-size: 14px;
+            font-weight: 900;
+            color: #393185;
+        }
+    }
+
+    .working-hours {
+        display: flex;
+        line-height: 1.31;
+        .phone-num {
+            font-weight: 900;
+        }
+        .working-hours-icon {
+            margin-right: 25px;
+        }
+        .working-hours-info {
+            p:last-of-type {
+                margin-bottom: 19px;
+            }
+        }
+    }
+
+    .address {
+        display: flex;
+        line-height: 1.31;
+        .address-icon {
+            margin-right: 25px;
+        }
+        .address-info {
+            p:last-of-type {
+                margin-bottom: 19px;
+            }
+        }
+    }
+
+    .fast-order {
+        .odred-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 207px;
+            height: 40px;
+            background: #e50a62;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 1.8px;
+            font-size: 12px;
+            margin-bottom: 19px;
+            &:hover {
+                background: #fff;
+                border: 2px solid #e50a62;
+                color: #e50a62;
+                transition: all ease-out 0.3s;
+            }
+        }
+    }
 }
