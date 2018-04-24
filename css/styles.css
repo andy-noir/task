@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 1440px; }
+
+.header {
+  height: 100vh;
+  width: 100%; }
+
+.top-nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 35px;
+  width: 100%;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e2e2ed;
+  font-family: 'Segoe UI';
+  letter-spacing: 1.65px; }
+  .top-nav ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none; }
+    .top-nav ul li a {
+      color: #2e2771;
+      text-decoration: none; }
+    .top-nav ul li:not(:last-child) {
+      margin-right: 55px; }
+  .top-nav .addToBookmarks {
+    text-decoration: none;
+    margin-left: 15px; }
+  .top-nav i {
+    color: #2e2771; }
+
+.company-info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }

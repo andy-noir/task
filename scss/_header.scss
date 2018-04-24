@@ -1,0 +1,41 @@
+.header {
+    height: 100vh;
+    width: 100%;
+}
+
+.top-nav {
+    display: flex;
+    height: 35px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e2e2ed;
+    font-family: 'Segoe UI';
+    letter-spacing: 1.65px;
+    ul {
+        display: flex;
+        list-style: none;
+        li {
+            a {
+                color: #2e2771;
+                text-decoration: none;
+            }
+        }
+        li:not(:last-child) {
+            margin-right: 55px;
+        }
+    }
+    .addToBookmarks {
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    i {
+        color: #2e2771;
+    }
+}
+
+.company-info {
+    display: flex;
+}
