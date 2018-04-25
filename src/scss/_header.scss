@@ -1,9 +1,10 @@
+/* Main header rules*/
 .header {
-    // height: 100vh;
     width: 100%;
     font-family: 'Segoe UI';
 }
 
+/* Top navigation start*/
 .top-nav {
     display: flex;
     max-width: 100%;
@@ -37,7 +38,10 @@
         color: #2e2771;
     }
 }
+/* Top navigation end */
 
+/* Company info block start */
+/* Main company info block rules */
 .company-info {
     display: flex;
     height: 130px;
@@ -55,6 +59,7 @@
         color: #393185;
     }
 
+/* Company info block - logo start */
     .logo {
         .slogan {
             margin-top: 12px;
@@ -63,7 +68,9 @@
             color: #393185;
         }
     }
+/* Company info block - logo end */
 
+/* Company info block - working hours start */
     .working-hours {
         display: flex;
         line-height: 1.31;
@@ -79,7 +86,9 @@
             }
         }
     }
+/* Company info block - working hours end */
 
+/* Company info block - address start */
     .address {
         display: flex;
         line-height: 1.31;
@@ -92,7 +101,9 @@
             }
         }
     }
+/* Company info block - address end */
 
+/* Company info block - fast order start */
     .fast-order {
         .odred-btn {
             display: flex;
@@ -115,10 +126,11 @@
         }
     }
 }
+/* Company info block - fast order end */
+/* Company info block end */
 
 
-
-
+/* Main navigation block start*/
   nav {
     background: #393185;
     box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
@@ -140,20 +152,22 @@
                 color: #fff;
             }
             a {
+                font-family: 'Source Sans Pro', sans-serif;
                 color: #fff;
                 text-decoration: none;
                 display: block;
                 padding: 32px 40px;
                 text-transform: uppercase;
                 font-size: 24px;
-                letter-spacing: 2.4px;
+                letter-spacing: 1.5px;
+                font-weight: 700;
             }
         }
     }
   }
   
 
-  
+/* sub navigation block start*/
   .menu-sub {
     position: absolute;
     left: 0;
@@ -170,6 +184,7 @@
                 padding: 0;
                 margin-bottom: .35em;
                 font-size: 14px;
+                font-family: 'Segoe UI';
                 letter-spacing: normal;
                 text-transform: capitalize;
                 &:hover {
@@ -209,7 +224,10 @@
   .menu-col-2 {
     width: 50%;
   }
-  
+/* sub navigation block end*/
+/* Main navigation block end*/
+
+/* Banner block start */
   .banner-container {
       display: flex;
       height: calc(100vh - 260px);
@@ -218,3 +236,4 @@
         object-fit: cover;
       }
   }
+/* Banner block end */
