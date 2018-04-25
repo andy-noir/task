@@ -4,7 +4,6 @@
   box-sizing: border-box; }
 
 .header {
-  height: 100vh;
   width: 100%;
   font-family: 'Segoe UI'; }
 
@@ -177,3 +176,12 @@ nav li:hover .menu-sub {
 
 .menu-col-2 {
   width: 50%; }
+
+.banner-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 260px); }
+  .banner-container .banner {
+    width: 100%;
+    object-fit: cover; }
