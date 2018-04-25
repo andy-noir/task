@@ -3,10 +3,12 @@
   margin: 0;
   box-sizing: border-box; }
 
+/* Main header rules*/
 .header {
   width: 100%;
   font-family: 'Segoe UI'; }
 
+/* Top navigation start*/
 .top-nav {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -41,6 +43,9 @@
   .top-nav i {
     color: #2e2771; }
 
+/* Top navigation end */
+/* Company info block start */
+/* Main company info block rules */
 .company-info {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -53,7 +58,14 @@
           justify-content: space-around;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  /* Company info block - logo start */
+  /* Company info block - logo end */
+  /* Company info block - working hours start */
+  /* Company info block - working hours end */
+  /* Company info block - address start */
+  /* Company info block - address end */
+  /* Company info block - fast order start */ }
   .company-info a {
     color: #393185;
     text-underline-position: under; }
@@ -108,6 +120,9 @@
       color: #e50a62;
       transition: all ease-out 0.3s; }
 
+/* Company info block - fast order end */
+/* Company info block end */
+/* Main navigation block start*/
 nav {
   background: #393185;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1); }
@@ -136,8 +151,10 @@ nav {
         letter-spacing: 1.5px;
         font-weight: 700; }
 
+/* sub navigation block start*/
 .menu-sub {
   position: absolute;
+  z-index: 2;
   left: 0;
   box-shadow: 0 28px 95px rgba(55, 47, 129, 0.26);
   background-color: #ecf5fd;
@@ -180,11 +197,100 @@ nav li:hover .menu-sub {
 .menu-col-2 {
   width: 50%; }
 
+/* sub navigation block end*/
+/* Main navigation block end*/
+/* Banner block start */
 .banner-container {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  z-index: 1;
   height: calc(100vh - 260px); }
+  .banner-container .banner-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    background: rgba(5, 16, 59, 0.69);
+    background: linear-gradient(to bottom, rgba(5, 16, 59, 0.69) 0%, rgba(5, 16, 59, 0.68) 0%, rgba(0, 0, 0, 0.68) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05103b', endColorstr='#000000', GradientType=0 ); }
   .banner-container .banner {
     width: 100%;
-    object-fit: cover; }
+    object-fit: cover;
+    overflow-y: hidden; }
+  .banner-container .banner-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    .banner-container .banner-info .banner-info-heading {
+      margin-top: 70px;
+      margin-left: 100px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 108px;
+      font-family: 'Source Sans Pro', sans-serif; }
+      .banner-container .banner-info .banner-info-heading::after {
+        display: block;
+        position: absolute;
+        content: '';
+        background: #e50a62;
+        width: 84px;
+        height: 3px; }
+    .banner-container .banner-info .banner-info-text {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif; }
+      .banner-container .banner-info .banner-info-text .banner-subheading {
+        font-size: 30px;
+        margin-right: 105px; }
+      .banner-container .banner-info .banner-info-text .banner-list {
+        font-size: 24px;
+        margin-right: 105px; }
+        .banner-container .banner-info .banner-info-text .banner-list i {
+          margin-right: 25px; }
+        .banner-container .banner-info .banner-info-text .banner-list ul {
+          list-style: none; }
+      .banner-container .banner-info .banner-info-text .banner-phone p {
+        font-weight: 900;
+        font-size: 30px;
+        margin-bottom: 26px; }
+      .banner-container .banner-info .banner-info-text .banner-phone .btn-order-online {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 294px;
+        height: 52px;
+        background: #e50a62;
+        font-size: 14px;
+        text-transform: uppercase; }
+        .banner-container .banner-info .banner-info-text .banner-phone .btn-order-online:hover {
+          background: #fff;
+          color: #e50a62;
+          transition: all ease-out 0.3s; }
+
+/* Banner block end */
+@media screen and (max-width: 1090px) {
+  header nav ul li a {
+    font-size: 20px; } }
+
+@media screen and (max-width: 1180px) {
+  .banner-container .banner-info .banner-info-text .banner-subheading,
+  .banner-container .banner-info .banner-info-text .banner-list {
+    margin-right: 55px; }
+  .banner-container .banner-info .banner-info-heading {
+    font-size: 60px; } }

@@ -1,0 +1,30 @@
+
+@media screen and (max-width: 1090px) {
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .banner-container {
+        .banner-info {
+            .banner-info-text {
+                .banner-subheading,
+                .banner-list {
+                    margin-right: 55px;
+                }
+            }
+            .banner-info-heading {
+                font-size: 60px;
+            }
+        }
+    }
+}
