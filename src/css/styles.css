@@ -284,6 +284,37 @@ nav li:hover .menu-sub {
           transition: all ease-out 0.3s; }
 
 /* Banner block end */
+.popular-prints {
+  width: 100%; }
+  .popular-prints .prints-wrapper {
+    margin: 0 auto;
+    width: 925px; }
+    .popular-prints .prints-wrapper h2 {
+      position: relative;
+      text-transform: uppercase;
+      margin-top: 83px;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #393185; }
+      .popular-prints .prints-wrapper h2::before {
+        content: '';
+        width: 84px;
+        border-bottom: solid 3px #e50a62;
+        position: absolute;
+        left: -112px;
+        top: 50%; }
+
+.prints-grid {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .prints-grid .print-item {
+    height: 261px;
+    width: 295px;
+    background: red; }
+
 @media screen and (max-width: 1090px) {
   header nav ul li a {
     font-size: 20px; } }
