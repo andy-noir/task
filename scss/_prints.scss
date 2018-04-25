@@ -1,0 +1,32 @@
+.popular-prints {
+    width: 100%;
+    .prints-wrapper {
+        margin: 0 auto;
+        width: 925px;
+        h2 {
+            position: relative;
+            text-transform: uppercase;
+            margin-top: 83px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #393185;
+            &::before {
+                content: '';
+                width: 84px;
+                border-bottom: solid 3px #e50a62;
+                position: absolute;
+                left: -112px;
+                top: 50%;
+            }
+        }
+    }
+}
+
+.prints-grid {
+    display: flex;
+    flex-wrap: wrap;
+    .print-item {
+        height: 261px;
+        width: 295px;
+        background: red;
+    }
+}
