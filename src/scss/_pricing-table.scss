@@ -45,7 +45,7 @@ table {
         font-size: 14px;
         tr {
             td {
-                padding: 14px 0px 14px 25px;
+                padding: 14px 25px 14px 25px;
             }
             td:not(:first-child) {
                 text-align: center;
@@ -58,6 +58,11 @@ table {
             background: #fff;
         }
     }
+    .cell-select:hover {
+        color: #ffffff;
+        background-color: #e50a62;
+        cursor: pointer;
+      }
 }
 
 .table-caption {
