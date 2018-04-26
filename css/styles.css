@@ -396,13 +396,17 @@ table {
     font-family: "Segoe UI";
     font-size: 14px; }
     table tbody tr td {
-      padding: 14px 0px 14px 25px; }
+      padding: 14px 25px 14px 25px; }
     table tbody tr td:not(:first-child) {
       text-align: center; }
     table tbody tr:nth-child(odd) {
       background: #e6f0f8; }
     table tbody tr:nth-child(even) {
       background: #fff; }
+  table .cell-select:hover {
+    color: #ffffff;
+    background-color: #e50a62;
+    cursor: pointer; }
 
 .table-caption {
   width: 100%;
