@@ -1,0 +1,22 @@
+.pay-order {
+    width: 100%;
+    .pay-order-wrapper {
+        margin: 0 auto;
+        max-width: 925px;
+        h2 {
+            position: relative;
+            text-transform: uppercase;
+            margin-top: 83px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #393185;
+            &::before {
+                content: '';
+                width: 84px;
+                border-bottom: solid 3px #e50a62;
+                position: absolute;
+                left: -112px;
+                top: 50%;
+            }
+        }
+    }
+}
