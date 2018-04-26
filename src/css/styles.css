@@ -248,12 +248,13 @@ nav li:hover .menu-sub {
           -ms-flex-pack: center;
               justify-content: center;
       color: #fff;
-      font-family: 'Segoe UI', sans-serif; }
+      font-family: 'Segoe UI Black', sans-serif; }
       .banner-container .banner-info .banner-info-text .banner-subheading {
         font-size: 30px;
         margin-right: 105px; }
       .banner-container .banner-info .banner-info-text .banner-list {
         font-size: 24px;
+        font-family: "Segoe UI";
         margin-right: 105px; }
         .banner-container .banner-info .banner-info-text .banner-list i {
           margin-right: 25px; }
@@ -262,6 +263,7 @@ nav li:hover .menu-sub {
       .banner-container .banner-info .banner-info-text .banner-phone p {
         font-weight: 900;
         font-size: 30px;
+        font-family: "Segoe UI Black";
         margin-bottom: 26px; }
       .banner-container .banner-info .banner-info-text .banner-phone .btn-order-online {
         display: -webkit-flex;
@@ -277,6 +279,7 @@ nav li:hover .menu-sub {
         height: 52px;
         background: #e50a62;
         font-size: 14px;
+        font-family: "Segoe UI";
         text-transform: uppercase; }
         .banner-container .banner-info .banner-info-text .banner-phone .btn-order-online:hover {
           background: #fff;
@@ -288,7 +291,7 @@ nav li:hover .menu-sub {
   width: 100%; }
   .popular-prints .prints-wrapper {
     margin: 0 auto;
-    width: 925px; }
+    max-width: 925px; }
     .popular-prints .prints-wrapper h2 {
       position: relative;
       text-transform: uppercase;
@@ -309,11 +312,118 @@ nav li:hover .menu-sub {
   display: flex;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+          flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 46px; }
   .prints-grid .print-item {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     height: 261px;
     width: 295px;
-    background: red; }
+    margin-bottom: 35px; }
+    .prints-grid .print-item h3 {
+      margin-bottom: 23px;
+      color: #393185;
+      font-family: 'Segoe UI Black';
+      font-size: 18px;
+      text-decoration: underline; }
+  .prints-grid .item8 {
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 3px; }
+    .prints-grid .item8:hover .arrow {
+      left: 222px;
+      transition: all ease-out .1s; }
+  .prints-grid .personal-order {
+    position: relative;
+    width: 100%;
+    height: 221px;
+    border: 8px solid #e50a62; }
+    .prints-grid .personal-order p {
+      position: absolute;
+      top: 46px;
+      left: 43px;
+      color: #e50a62;
+      font-family: "Segoe UI Black";
+      font-size: 18px;
+      text-decoration: underline; }
+    .prints-grid .personal-order img {
+      position: absolute;
+      top: 157px;
+      left: 217px; }
+
+.pricing-table {
+  width: 100%; }
+  .pricing-table .table-wrapper {
+    margin: 0 auto;
+    width: 925px; }
+    .pricing-table .table-wrapper h2 {
+      position: relative;
+      text-transform: uppercase;
+      margin-top: 83px;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #393185; }
+      .pricing-table .table-wrapper h2::before {
+        content: '';
+        width: 84px;
+        border-bottom: solid 3px #e50a62;
+        position: absolute;
+        left: -112px;
+        top: 50%; }
+
+table {
+  width: 100%;
+  margin-top: 45px;
+  border: 1px solid #e6f0f8;
+  border-collapse: collapse; }
+  table thead {
+    background: #393185;
+    color: #fff;
+    font-family: "Segoe UI Black";
+    font-size: 16px; }
+    table thead tr th {
+      padding: 22px 0px 22px 25px; }
+    table thead tr th:first-child {
+      text-align: left; }
+  table tbody {
+    font-family: "Segoe UI";
+    font-size: 14px; }
+    table tbody tr td {
+      padding: 14px 0px 14px 25px; }
+    table tbody tr td:not(:first-child) {
+      text-align: center; }
+    table tbody tr:nth-child(odd) {
+      background: #e6f0f8; }
+    table tbody tr:nth-child(even) {
+      background: #fff; }
+
+.table-caption {
+  width: 100%;
+  margin-top: 27px; }
+  .table-caption h3,
+  .table-caption p {
+    margin-left: 25px; }
+  .table-caption h3 {
+    color: #393185;
+    font-family: "Segoe UI Black";
+    font-size: 14px; }
+  .table-caption p {
+    margin-top: 19px;
+    margin-bottom: 24px;
+    color: #303030;
+    font-family: "Segoe UI";
+    font-size: 14px; }
+  .table-caption hr {
+    background-color: #e1eaf1;
+    border-color: #e1eaf1;
+    color: #e1eaf1; }
 
 @media screen and (max-width: 1090px) {
   header nav ul li a {

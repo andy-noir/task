@@ -2,7 +2,7 @@
     width: 100%;
     .prints-wrapper {
         margin: 0 auto;
-        width: 925px;
+        max-width: 925px;
         h2 {
             position: relative;
             text-transform: uppercase;
@@ -24,9 +24,49 @@
 .prints-grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 46px;
     .print-item {
+        display: flex;
+        flex-wrap: wrap;
         height: 261px;
         width: 295px;
-        background: red;
+        margin-bottom: 35px;
+        h3 {
+            margin-bottom: 23px;
+            color: #393185;
+            font-family: 'Segoe UI Black';
+            font-size: 18px;
+            text-decoration: underline;
+        }
     }
+    .item8 {
+        align-items: flex-end;
+        margin-top: 3px;
+        &:hover .arrow {
+            left: 222px;
+            transition: all ease-out .1s;
+        }
+    }
+    .personal-order {
+        position: relative;
+        width: 100%;
+        height: 221px;
+        border: 8px solid #e50a62;
+        p {
+            position: absolute;
+            top: 46px;
+            left: 43px;
+            color: #e50a62;
+            font-family: "Segoe UI Black";
+            font-size: 18px;
+            text-decoration: underline;
+        }
+        img {
+            position: absolute;
+            top: 157px;
+            left: 217px;
+        }
+    }
+   
 }

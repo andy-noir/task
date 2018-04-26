@@ -47,13 +47,15 @@
             display: flex;
             justify-content: center;
             color: #fff;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Segoe UI Black', sans-serif;
             .banner-subheading {
                 font-size: 30px;
                 margin-right: 105px;
+
             }
             .banner-list {
                 font-size: 24px;
+                font-family: "Segoe UI";
                 margin-right: 105px;
                 i {
                     margin-right: 25px;
@@ -66,6 +68,7 @@
                 p {
                     font-weight: 900;
                     font-size: 30px;
+                    font-family: "Segoe UI Black";
                     margin-bottom: 26px;
                 }
                 .btn-order-online {
@@ -76,6 +79,7 @@
                     height: 52px;
                     background: #e50a62;
                     font-size: 14px;
+                    font-family: "Segoe UI";
                     text-transform: uppercase;
                     &:hover {
                       background: #fff;
