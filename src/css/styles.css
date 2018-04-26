@@ -1,3 +1,4 @@
+/* Global rules*/
 * {
   padding: 0;
   margin: 0;
@@ -428,6 +429,38 @@ table {
     background-color: #e1eaf1;
     border-color: #e1eaf1;
     color: #e1eaf1; }
+
+.hidden {
+  display: none; }
+
+.video-wrapper {
+  position: relative;
+  width: 925px;
+  margin: 0 auto;
+  margin-top: 80px; }
+  .video-wrapper .video-preview {
+    position: absolute;
+    background: #1a173c;
+    height: 592px; }
+    .video-wrapper .video-preview .youtube-bg:first-child {
+      height: 100%; }
+  .video-wrapper .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+  .video-wrapper p {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Segoe UI Black";
+    font-size: 18px; }
 
 @media screen and (max-width: 1090px) {
   header nav ul li a {

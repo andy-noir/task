@@ -1,0 +1,33 @@
+.hidden {
+    display: none;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 925px;
+    margin: 0 auto;
+    margin-top: 80px;
+    .video-preview {
+        position: absolute;
+        background: #1a173c;
+        height: 592px;
+        .youtube-bg:first-child {
+            height: 100%;
+        }
+    }
+    .play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    p {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        font-family: "Segoe UI Black";
+        font-size: 18px;
+    }
+}
