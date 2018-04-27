@@ -592,6 +592,8 @@ table {
       margin: 0 auto;
       padding: 0px 98px; }
     .order-form .order-form-wrapper fieldset {
+      position: relative;
+      height: 100%;
       color: #2e2771;
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 24px;
@@ -599,6 +601,64 @@ table {
       text-transform: uppercase;
       letter-spacing: 1.1px;
       border: 8px solid #393185; }
+      .order-form .order-form-wrapper fieldset::after {
+        display: block;
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #ecf5fd;
+        top: 50px;
+        left: 44px;
+        z-index: -1; }
+
+form {
+  height: 600px; }
+  form input[type="text"] {
+    width: 350px;
+    padding-bottom: 29px;
+    outline: none;
+    border: 0;
+    border-bottom: 3px solid #393185;
+    /* #ecf5fd*/
+    color: #393185;
+    font-family: "Segoe UI";
+    font-size: 24px; }
+    form input[type="text"]::-webkit-input-placeholder {
+      color: #393185; }
+    form input[type="text"]::-moz-placeholder {
+      color: #393185; }
+    form input[type="text"]:-ms-input-placeholder {
+      color: #393185; }
+    form input[type="text"]::placeholder {
+      color: #393185; }
+  form input[type="submit"] {
+    width: 293px;
+    height: 52px;
+    background-color: #e50a62;
+    border: 0;
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px; }
+  form input[type="file"] {
+    opacity: 0; }
+
+.attach-file {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .attach-file label {
+    margin-left: 21px;
+    color: #393185;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: normal; }
 
 /* Media rules start */
 @media screen and (max-width: 1090px) {
