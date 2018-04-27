@@ -1,3 +1,5 @@
+/* Pay and order info block start */
+/* Pay and order info block - wrapper start */
 .pay-order {
     width: 100%;
     .pay-order-wrapper {
@@ -23,18 +25,22 @@
         }
     }
 }
+/* Pay and order info block - wrapper end */
 
-
+/* Pay and order info block - heading styles start*/
 .pay-order-heading {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 43px;
 
     h2:nth-child(2) {
         &::before {display: none;}
     }
 }
+/* Pay and order info block - heading styles end*/
 
+/* Pay and order info block - row tweaks start*/
 .pay-order-row {
     display: flex;
     width: 100%;
@@ -43,9 +49,6 @@
 
 .row2 {
     margin-top: 24px;
-}
-.pay-order-heading {
-    margin-bottom: 43px;
 }
 
 .pay-order-item {
@@ -60,3 +63,5 @@
         font-weight: 700;
     }
 }
+/* Pay and order info block - row tweaks end*/
+/* Pay and order info block end*/
