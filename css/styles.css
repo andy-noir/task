@@ -475,6 +475,7 @@ table {
 
 /* Pricing block end */
 /* Pay and order info block start */
+/* Pay and order info block - wrapper start */
 .pay-order {
   width: 100%; }
   .pay-order .pay-order-wrapper {
@@ -501,6 +502,8 @@ table {
         left: -112px;
         top: 50%; }
 
+/* Pay and order info block - wrapper end */
+/* Pay and order info block - heading styles start */
 .pay-order-heading {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -513,6 +516,8 @@ table {
   .pay-order-heading h2:nth-child(2)::before {
     display: none; }
 
+/* Pay and order info block - heading styles end */
+/* Pay and order info block - row tweaks start */
 .pay-order-row {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -540,7 +545,8 @@ table {
     font-size: 16px;
     font-weight: 700; }
 
-/* Pay and order info block end*/
+/* Pay and order info block - row tweaks end */
+/* Pay and order info block end */
 /* feedback block start*/
 .feedback {
   width: 100%;
@@ -575,6 +581,25 @@ table {
         text-transform: uppercase; }
 
 /* feedback block end*/
+.order-form {
+  width: 100%;
+  margin-top: 287px;
+  /* make it margin-top: 87px; when the feedback section is added*/ }
+  .order-form .order-form-wrapper {
+    margin: 0 auto;
+    max-width: 925px; }
+    .order-form .order-form-wrapper legend {
+      margin: 0 auto;
+      padding: 0px 98px; }
+    .order-form .order-form-wrapper fieldset {
+      color: #2e2771;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1.1px;
+      border: 8px solid #393185; }
+
 /* Media rules start */
 @media screen and (max-width: 1090px) {
   header nav ul li a {
