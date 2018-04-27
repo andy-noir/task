@@ -581,6 +581,7 @@ table {
         text-transform: uppercase; }
 
 /* feedback block end*/
+/* order from block start*/
 .order-form {
   width: 100%;
   margin-top: 287px;
@@ -660,6 +661,29 @@ form {
     text-transform: capitalize;
     letter-spacing: normal; }
 
+/* order from block end*/
+/* questions block start*/
+.questions {
+  width: 100%;
+  margin-top: 87px; }
+  .questions .questions-wrapper {
+    margin: 0 auto;
+    width: 925px; }
+    .questions .questions-wrapper h2 {
+      position: relative;
+      text-transform: uppercase;
+      margin-top: 83px;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #393185; }
+      .questions .questions-wrapper h2::before {
+        content: '';
+        width: 84px;
+        border-bottom: solid 3px #e50a62;
+        position: absolute;
+        left: -112px;
+        top: 50%; }
+
+/* questions block end */
 /* Media rules start */
 @media screen and (max-width: 1090px) {
   header nav ul li a {
