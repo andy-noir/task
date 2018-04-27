@@ -1,2 +1,38 @@
 /* feedback block start*/
 
+.feedback {
+    width: 100%;
+    margin-top: 81px;
+    .feedback-wrapper {
+        display: flex;
+        margin: 0 auto;
+        max-width: 925px;
+        h2 {
+            position: relative;
+            text-transform: uppercase;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #393185;
+            &::before {
+                content: '';
+                width: 84px;
+                border-bottom: solid 3px #e50a62;
+                position: absolute;
+                left: -112px;
+                top: 50%;
+            }
+            &::after {
+                content: '?';
+                position: absolute;
+                left: -120px;
+                top: 50%;
+                color: #eff8ff;
+                font-family: "Source Sans Pro", sans-serif;
+                font-size: 210px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+/* feedback block end*/
