@@ -1,9 +1,10 @@
-/* Global rules*/
+/* Global rules start */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
+/* Global rules end */
 /* Main header rules*/
 .header {
   width: 100%;
@@ -360,6 +361,8 @@ nav li:hover .menu-sub {
       top: 157px;
       left: 217px; }
 
+/* Pricing block start */
+/* Pricing block - wrapper start */
 .pricing-table {
   width: 100%; }
   .pricing-table .table-wrapper {
@@ -379,6 +382,8 @@ nav li:hover .menu-sub {
         left: -112px;
         top: 50%; }
 
+/* Pricing block - wrapper end */
+/* Pricing block - table start */
 table {
   width: 100%;
   margin-top: 45px;
@@ -409,6 +414,8 @@ table {
     background-color: #e50a62;
     cursor: pointer; }
 
+/* Pricing block - table end */
+/* Pricing block - table caption start */
 .table-caption {
   width: 100%;
   margin-top: 27px; }
@@ -430,6 +437,9 @@ table {
     border-color: #e1eaf1;
     color: #e1eaf1; }
 
+/* Pricing block - table caption end */
+/* Pricing block end */
+/* Pricing block start */
 .hidden {
   display: none; }
 
@@ -463,6 +473,8 @@ table {
     font-family: "Segoe UI Black";
     font-size: 18px; }
 
+/* Pricing block end */
+/* Pay and order info block start */
 .pay-order {
   width: 100%; }
   .pay-order .pay-order-wrapper {
@@ -496,7 +508,8 @@ table {
   width: 100%;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-bottom: 43px; }
   .pay-order-heading h2:nth-child(2)::before {
     display: none; }
 
@@ -511,9 +524,6 @@ table {
 
 .row2 {
   margin-top: 24px; }
-
-.pay-order-heading {
-  margin-bottom: 43px; }
 
 .pay-order-item {
   display: -webkit-flex;
@@ -530,6 +540,7 @@ table {
     font-size: 16px;
     font-weight: 700; }
 
+/* Pay and order info block end*/
 /* feedback block start*/
 .feedback {
   width: 100%;
@@ -564,6 +575,7 @@ table {
         text-transform: uppercase; }
 
 /* feedback block end*/
+/* Media rules start */
 @media screen and (max-width: 1090px) {
   header nav ul li a {
     font-size: 20px; } }
@@ -574,3 +586,5 @@ table {
     margin-right: 55px; }
   .banner-container .banner-info .banner-info-heading {
     font-size: 60px; } }
+
+/* Media rules end */

@@ -1,3 +1,5 @@
+/* Pricing block start */
+/* Pricing block - wrapper start */
 .pricing-table {
     width: 100%;
     .table-wrapper {
@@ -20,7 +22,9 @@
         }
     }
 }
+/* Pricing block - wrapper end */
 
+/* Pricing block - table start */
 table {
     width: 100%;
     margin-top: 45px;
@@ -64,7 +68,9 @@ table {
         cursor: pointer;
       }
 }
+/* Pricing block - table end */
 
+/* Pricing block - table caption start */
 .table-caption {
     width: 100%;
     margin-top: 27px;
@@ -90,3 +96,5 @@ table {
         color: #e1eaf1;
     }
 }
+/* Pricing block - table caption end */
+/* Pricing block end */
