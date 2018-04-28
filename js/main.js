@@ -69,7 +69,7 @@ $(".video-preview").on("click", function() {
 $(document).ready(function(){
   $('.portfolio-slider').slick({
     autoplay: true,
-    autoplaySpeed 1000,
+    autoplaySpeed: 1000,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
