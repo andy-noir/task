@@ -763,6 +763,13 @@ form {
         left: -112px;
         top: 50%; }
 
+.portfolio-slider {
+  margin-top: 54px; }
+
+.slick-prev,
+.slick-next {
+  color: #2e2771; }
+
 /* portfolio block end */
 /* Media rules start */
 @media screen and (max-width: 1090px) {
