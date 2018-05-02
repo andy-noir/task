@@ -76,3 +76,17 @@ $(document).ready(function(){
     arrows: true
   });
 });
+
+ymaps.ready(init);
+    var myMap,
+        myPlacemark;
+
+    function init(){     
+        myMap = new ymaps.Map("y-map", {
+            center: [55.720332, 37.677301],
+            zoom: 15
+        });
+        myPlacemark = new ymaps.Placemark([55.720332, 37.677301],
+           { hintContent: 'А-Я Принт', balloonContent: 'А-Я Принт' }, {iconLayout: 'default#image',iconImageHref: './imgs/pin.png', iconImageSize: [94, 104]});
+        myMap.geoObjects.add(myPlacemark);
+      }

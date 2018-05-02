@@ -1,0 +1,56 @@
+/* article block start*/
+.articles {
+    width: 100%;
+    margin-top: 95px;
+    .articles-wrapper {
+        margin: 0 auto;
+        width: 925px;
+    }
+}
+
+article {
+    display: flex;
+    margin-top: 56px;
+    .article-heading {
+        width: 262px;
+        margin-right: 46px;
+        h2 {
+            position: relative;
+            color: #2e2771;
+            font-family: "Segoe UI Black";
+            font-size: 18px;
+            font-weight: 400;
+        &::after {
+            display: block;
+            position: absolute;
+            content: '';
+            height: 3px;
+            width: 262px;
+            background: #e50a62;
+            bottom: -38px;
+        }
+        }
+    }
+    p {
+        color: #303030;
+        font-family: "Segoe UI";
+        font-size: 16px;
+        font-weight: 400;
+    }
+    span {
+        color: #2e2771;
+        font-family: "Segoe UI Black";
+        font-weight: 900;
+    }
+}
+
+.article4 {
+    margin-top: 100px;
+}
+
+.article1 {
+    .article-heading {
+        margin-right: 122px;
+    }
+}
+/* article block end*/
