@@ -289,7 +289,22 @@ nav li:hover .menu-sub {
           transition: all ease-out 0.3s; }
 
 /* Banner block end */
+.floating-menu {
+  position: fixed;
+  z-index: 9;
+  bottom: 0; }
+  .floating-menu nav ul li {
+    display: block; }
+    .floating-menu nav ul li a {
+      font-family: "Segoe UI Black";
+      font-size: 14px;
+      text-transform: capitalize;
+      padding: 15px 40px;
+      text-align: left;
+      letter-spacing: normal; }
+
 .popular-prints {
+  position: relative;
   width: 100%; }
   .popular-prints .prints-wrapper {
     margin: 0 auto;
