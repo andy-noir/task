@@ -820,10 +820,104 @@ article {
 /* article block end*/
 /* footer start*/
 .footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
   width: 100%;
   height: 554px;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 64px;
   background: #2e2771; }
+  .footer section {
+    margin-top: 80px; }
+
+.footer-heading {
+  position: relative;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  margin-bottom: 61px; }
+  .footer-heading::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 61px;
+    height: 2px;
+    background: #e50a62;
+    bottom: -26px; }
+
+.section2-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.footer-list {
+  list-style: none; }
+  .footer-list li {
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 14px; }
+    .footer-list li:not(:first-child) {
+      margin-top: 8px; }
+    .footer-list li:hover {
+      text-decoration: underline; }
+
+.list1 {
+  margin-right: 171px; }
+
+.list2 {
+  margin-right: 71px; }
+
+.list3 {
+  margin-right: 73px; }
+
+.footer-info {
+  color: #fff;
+  font-family: "Segoe UI"; }
+  .footer-info .company-info-links {
+    color: #b1c2e8;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none; }
+    .footer-info .company-info-links:hover {
+      text-decoration: underline; }
+  .footer-info .footer-slogan {
+    margin-bottom: 42px; }
+  .footer-info .working-hours {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1.31; }
+    .footer-info .working-hours .phone-num {
+      font-family: "Segoe UI Black";
+      font-weight: 900; }
+    .footer-info .working-hours .working-hours-icon {
+      margin-right: 25px; }
+    .footer-info .working-hours .working-hours-info p:last-of-type {
+      margin-bottom: 19px; }
+  .footer-info .address {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1.31;
+    margin-top: 41px; }
+    .footer-info .address .address-icon {
+      margin-right: 25px; }
+    .footer-info .address .address-info p:last-of-type {
+      margin-bottom: 19px; }
+
+.find-us {
+  position: absolute;
+  bottom: -35px;
+  left: 101px; }
 
 /* footer end*/
 /* map block start*/
