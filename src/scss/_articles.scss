@@ -17,7 +17,7 @@ article {
         h2 {
             position: relative;
             color: #2e2771;
-            font-family: "Segoe UI Black";
+            font-family: 'Segoe UI Black', 'Source Sans Pro', sans-serif;
             font-size: 18px;
             font-weight: 400;
         &::after {
@@ -39,7 +39,7 @@ article {
     }
     span {
         color: #2e2771;
-        font-family: "Segoe UI Black";
+        font-family: 'Segoe UI Black', 'Source Sans Pro', sans-serif;
         font-weight: 900;
     }
 }
