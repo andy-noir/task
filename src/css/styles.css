@@ -295,11 +295,13 @@ nav li:hover .menu-sub {
   bottom: 0; }
   .floating-menu nav ul li {
     display: block; }
+    .floating-menu nav ul li:not(:last-of-type) {
+      border: 1px solid #473d94; }
     .floating-menu nav ul li a {
       font-family: "Segoe UI Black";
       font-size: 14px;
       text-transform: capitalize;
-      padding: 15px 40px;
+      padding: 16px 35px;
       text-align: left;
       letter-spacing: normal; }
 

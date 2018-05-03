@@ -6,11 +6,14 @@
         ul {
             li {
                 display: block;
+                &:not(:last-of-type) {
+                    border: 1px solid #473d94;
+                }
                 a {
                     font-family: "Segoe UI Black";
                     font-size: 14px;
                     text-transform: capitalize;
-                    padding: 15px 40px;
+                    padding: 16px 35px;
                     text-align: left;
                     letter-spacing: normal;
                 }
